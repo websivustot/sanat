@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed");
+body {
+  font-size: 22px; }
+
+body .header {
+  margin-bottom: 0; }
+  body .header .menu a:link {
+    color: black; }
+  body .header .logo {
+    background: url(../img/logo-avimedia.gif) no-repeat center center;
+    -webkit-background-size: auto 80%;
+            background-size: auto 80%;
+    display: block;
+    width: 180px; }
+
+body .about {
+  background: #95b9f5 url(../img/bg.jpg) no-repeat top left;
+  -webkit-background-size: cover;
+          background-size: cover;
+  background: rgba(4, 32, 80, 0.77);
+  height: 500px;
+  margin-top: 0;
+  color: white; }
+  body .about .text_about {
+    margin-top: 0;
+    height: 500px; }
+    body .about .text_about h1 {
+      color: #c6c6c6; }
